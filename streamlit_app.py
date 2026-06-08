@@ -1,3 +1,7 @@
+
+import matplotlib
+matplotlib.use('Agg')
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -111,7 +115,7 @@ st.markdown("""
 
 
 #df = pd.read_csv('marketing_campaign.csv', sep=None, engine='python')
-#st.dataframe(df.head())
+#st.dataframe(df.head()-86
 
 
 
